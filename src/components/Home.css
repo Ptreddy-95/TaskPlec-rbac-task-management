@@ -1,0 +1,49 @@
+/* Home.css */
+.home-page {
+  text-align: center;
+  padding: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.home-page h1 {
+  font-size: 2.5rem;
+  color: #4a90e2;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.role-selection {
+  margin-top: 30px;
+}
+
+.role-btn {
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.admin-btn {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.manager-btn {
+  background-color: #f39c12;
+  color: white;
+}
+
+.employee-btn {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.role-btn:hover {
+  opacity: 0.8;
+}

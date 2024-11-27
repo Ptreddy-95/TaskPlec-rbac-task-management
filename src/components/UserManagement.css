@@ -1,0 +1,53 @@
+/* User Management Styles */
+.user-management-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .user-management-table th,
+  .user-management-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .user-management-table th {
+    background-color: #2980b9;
+    color: white;
+  }
+  
+  button.add-user {
+    background-color: #2ecc71;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  button.add-user:hover {
+    background-color: #27ae60;
+  }
+  
+  button.edit-user,
+  button.delete-user {
+    background-color: #f39c12;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+  }
+  
+  button.edit-user:hover {
+    background-color: #e67e22;
+  }
+  
+  button.delete-user {
+    background-color: #e74c3c;
+  }
+  
+  button.delete-user:hover {
+    background-color: #c0392b;
+  }
+  

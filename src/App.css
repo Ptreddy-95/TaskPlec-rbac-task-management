@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header Content */
+.header-content {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 28px;
+  color: var(--text-color);
+  font-weight: bold;
+}
+
+.title .highlight {
+  color: #2575fc;
+}
+
+.tagline {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Sticky Navigation Bar */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--header-bg);
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  color: var(--text-color);
+}
+
+nav {
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a.active {
+  background-color: var(--button-bg);
+  color: var(--button-color);
+}
+
+nav a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+button {
+  margin-left: auto;
+}
+
+
+/* Light Theme */
+.light {
+  --bg-color: #ffffff;
+  --text-color: #333333;
+  --header-bg: #f8f9fa;
+  --button-bg: #007bff;
+  --button-color: #ffffff;
+}
+
+/* Dark Theme */
+.dark {
+  --bg-color: #2c2f33;
+  --text-color: #f1f1f1;
+  --header-bg: #23272a;
+  --button-bg: #7289da;
+  --button-color: #ffffff;
+}
+
+/* Apply Theme Variables */
+body, .header, .page {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header {
+  background-color: var(--header-bg);
+}
+
+button {
+  background-color: var(--button-bg);
+  color: var(--button-color);
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Fade-in animation for pages */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.page {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Button hover effect */
+button {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #f39c12;
+  transform: scale(1.05);
+}
+
+/* Input field focus effect */
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border: 2px solid #f39c12;
+  box-shadow: 0 0 5px rgba(243, 156, 18, 0.5);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.error {
+  color: #e74c3c;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+/* Login Styling */
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+}
+
+.login-container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
