@@ -50,9 +50,9 @@ const AdminDashboard = () => {
     dispatch(addUser(newUser));
   };
 
-  const handleUpdateUser = (updatedUser) => {
-    dispatch(updateUser(updatedUser));
-  };
+  const handleUpdateUser = (user) => {
+    dispatch(editUser(user)); 
+};
 
   const handleDeleteUser = (userId) => {
     dispatch(deleteUser(userId));
@@ -62,9 +62,9 @@ const AdminDashboard = () => {
     dispatch(addRole(newRole));
   };
 
-  const handleUpdateRole = (updatedRole) => {
-    dispatch(updateRole(updatedRole));
-  };
+  const handleUpdateRole = (role) => {
+    dispatch(editRole(role)); 
+};
 
   const handleDeleteRole = (roleId) => {
     dispatch(deleteRole(roleId));
