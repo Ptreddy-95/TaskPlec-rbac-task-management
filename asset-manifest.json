@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/TaskPlex-rbac-task-management/static/css/main.b909c8cc.css",
+    "main.js": "/TaskPlex-rbac-task-management/static/js/main.10eb9b2c.js",
+    "index.html": "/TaskPlex-rbac-task-management/index.html",
+    "main.b909c8cc.css.map": "/TaskPlex-rbac-task-management/static/css/main.b909c8cc.css.map",
+    "main.10eb9b2c.js.map": "/TaskPlex-rbac-task-management/static/js/main.10eb9b2c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b909c8cc.css",
+    "static/js/main.10eb9b2c.js"
+  ]
+}
